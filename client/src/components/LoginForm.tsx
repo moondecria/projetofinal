@@ -18,7 +18,7 @@ const MyForm = styled.form`
     
     .container {
         padding: 2rem;
-        background-color: #FFFFFF;
+        background-color: #FAF0E6;
 
         .title {
             margin-bottom: 2rem;
@@ -94,7 +94,7 @@ const AccentButton = styled.button`
 const HiddenButton = styled.button`
     border: 0 none;
     color: #222222;
-    background-color: transparent;
+    background-color: #FFFAFA;
     font-size: 1.25rem;
     font-weight: 500;
     padding: 1rem;
@@ -107,7 +107,7 @@ export default () => <>
         <div className="container">
             <div className="title">
                 <h1>Welcome</h1>
-                <h2>bem vindo ao nosso site</h2>
+                <h2> Bem vindo a nossa página de cadastro 😊</h2>
             </div>
             <div className="input">
                 <label>Login</label>
@@ -123,7 +123,7 @@ export default () => <>
             </div>
         </div>
         <div className="sign-up">
-            é a sua primeira vez aqui, <Link to="singup">cadastre-se!</Link>
+            É o seu primeiro acesso no nosso site? <Link to="singup">Faça seu cadastro!!</Link>
         </div>
     </MyForm>
 </>
